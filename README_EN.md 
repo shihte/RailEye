@@ -1,0 +1,160 @@
+# RailEye - Intelligent Light Rail Autonomous System
+
+## Project Overview
+RailEye is an advanced light rail solution that integrates deep learning with autonomous control systems. Utilizing YOLOv8 convolutional neural networks, the system provides real-time platform monitoring and analysis, combining precise object detection with autonomous driving capabilities to achieve intelligent train operation and stopping control. This system aims to enhance the safety, efficiency, and reliability of light rail transportation.
+
+## Core Features
+- 🚊 Autonomous Driving System
+  - Intelligent Speed Control
+  - Precise Station Stopping
+  - Automatic Emergency Braking
+  - Smooth Acceleration/Deceleration
+  - Dynamic Distance Adjustment
+
+- 🎯 Real-time Object Detection
+  - Human Movement Tracking
+  - Vehicle Recognition
+  - Animal Behavior Monitoring
+  - Abandoned Object Detection
+
+- 🔍 Intelligent Analysis
+  - Precise Distance Estimation
+  - Track Environment Analysis
+  - Platform Crowding Assessment
+  - Anomaly Event Warning
+
+- 📊 Automatic Logging System
+  - Operational Data Recording
+  - Event Image Capture
+  - Autonomous Driving Logs
+  - System Status Monitoring
+
+## Technical Features
+- Deep Learning Technology
+  - YOLOv8x Real-time Detection
+  - Custom Training Datasets
+  - Performance Optimization
+
+- Autonomous Control System
+  - PID Controller Tuning
+  - Fuzzy Logic Control
+  - Adaptive Cruise System
+  - Precise Braking Control
+
+- System Integration
+  - Multi-sensor Fusion
+  - Distributed Architecture
+  - Real-time Communication
+  - Safety Redundancy
+
+## Applications
+- Light Rail Autonomous Operation
+- Intelligent Platform Management
+- Safety Monitoring System
+- Operational Performance Optimization
+- Incident Prevention & Warning
+
+## System Architecture
+### Hardware Requirements
+- Industrial Computer
+- NVIDIA GPU with CUDA Support
+- High-resolution Cameras
+- Vehicle Sensor Suite
+
+### Software Requirements
+- Python 3.8+
+- Deep Learning Frameworks
+  - ultralytics
+  - opencv-python
+  - numpy
+  - pandas
+- Control Modules
+  - control
+  - scipy
+  - pyserial
+
+## Installation
+1. System Setup
+```bash
+git clone https://github.com/yourusername/RailEye.git
+cd RailEye
+```
+
+2. Environment Setup
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+```
+
+3. Package Installation
+```bash
+pip install -r requirements.txt
+```
+
+## Usage Guide
+1. System Initialization
+```bash
+python setup.py
+```
+
+2. Launch System
+```bash
+python main.py
+```
+
+3. Configuration
+```python
+# config.py
+SETTINGS = {
+    # Autonomous Driving Parameters
+    'auto_drive': {
+        'max_speed': 40,        # Maximum speed (km/h)
+        'brake_distance': 100,  # Braking distance (m)
+        'acceleration': 0.8     # Acceleration (m/s²)
+    },
+    # Detection Parameters
+    'detection': {
+        'max_logs': 10,        # Log retention count
+        'interval': 0.1,       # Detection interval (s)
+        'confidence': 0.5      # Confidence threshold
+    },
+    # System Configuration
+    'system': {
+        'debug_mode': False,   # Debug mode
+        'save_images': True,   # Save detection images
+        'auto_backup': True    # Automatic backup
+    }
+}
+```
+
+## System Output
+- Real-time Monitoring
+  - Train Operation Status
+  - Object Detection Results
+  - System Parameters
+- Automatic Recording
+  - Operation Logs
+  - Event Images
+  - System Reports
+
+## Safety Mechanisms
+- Emergency Braking System
+- Anomaly Event Handling
+- System Redundancy Switch
+- Fault Auto-reporting
+
+## Future Development
+- [ ] Multi-train Collaborative Control
+- [ ] AI Predictive Maintenance
+- [ ] 5G Communication Integration
+- [ ] Intelligent Scheduling Optimization
+- [ ] Next-gen Sensor Integration
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Technical Support
+- Documentation: [Docs Link]
+- Issue Reporting: [Issues Link]
+- Technical Community: [Community Link]
