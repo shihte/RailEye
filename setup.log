@@ -1,0 +1,65 @@
+2024-12-15 22:30:07,985 - INFO - Starting setup process...
+2024-12-15 22:30:07,985 - INFO - Removed old log file: ./logs/log-20241215161423.jpg
+2024-12-15 22:30:07,986 - INFO - Removed old log file: ./logs/log-20241215161422.jpg
+2024-12-15 22:30:07,986 - INFO - Removed old log file: ./logs/log-20241215161436.jpg
+2024-12-15 22:30:07,987 - INFO - Removed old log file: ./logs/log-20241215161435.jpg
+2024-12-15 22:30:07,987 - INFO - Removed old log file: ./logs/log-20241215161430.jpg
+2024-12-15 22:30:07,987 - INFO - Removed old log file: ./logs/log-20241215161424.jpg
+2024-12-15 22:30:07,988 - INFO - Removed old log file: ./logs/log-20241215161432.jpg
+2024-12-15 22:30:07,988 - INFO - Removed old log file: ./logs/log-20241215161426.jpg
+2024-12-15 22:30:07,988 - INFO - Removed old log file: ./logs/log-20241215161427.jpg
+2024-12-15 22:30:07,988 - INFO - Removed old log file: ./logs/log-20241215161433.jpg
+2024-12-15 22:30:07,988 - ERROR - Error removing ./logs/images: [Errno 1] Operation not permitted: './logs/images'
+2024-12-15 22:30:07,989 - INFO - Removed old log file: ./logs/log-20241215161429.jpg
+2024-12-15 22:30:07,989 - INFO - Found 0 images in images directory
+2024-12-15 22:30:07,989 - WARNING - No images found in images directory
+2024-12-15 22:30:07,989 - ERROR - No valid image found
+2024-12-15 22:30:19,171 - INFO - Starting setup process...
+2024-12-15 22:30:19,171 - ERROR - Error removing ./logs/images: [Errno 1] Operation not permitted: './logs/images'
+2024-12-15 22:30:19,171 - INFO - Found 0 images in images directory
+2024-12-15 22:30:19,171 - WARNING - No images found in images directory
+2024-12-15 22:30:19,171 - ERROR - No valid image found
+2024-12-15 22:31:32,257 - INFO - Starting setup process...
+2024-12-15 22:31:32,258 - ERROR - Error removing ./logs/images: [Errno 1] Operation not permitted: './logs/images'
+2024-12-15 22:31:32,258 - INFO - Found 0 images in images directory
+2024-12-15 22:31:32,258 - WARNING - No images found in images directory
+2024-12-15 22:31:32,258 - ERROR - No valid image found
+2024-12-15 22:34:11,748 - INFO - Starting setup process...
+2024-12-15 22:34:11,749 - ERROR - Error removing ./logs/images: [Errno 1] Operation not permitted: './logs/images'
+2024-12-15 22:34:11,749 - INFO - Found 0 images in images directory
+2024-12-15 22:34:11,749 - WARNING - No images found in images directory
+2024-12-15 22:34:11,749 - ERROR - No valid image found
+2024-12-15 22:34:17,314 - INFO - Starting setup process...
+2024-12-15 22:34:17,314 - ERROR - Error removing ./logs/images: [Errno 1] Operation not permitted: './logs/images'
+2024-12-15 22:34:17,314 - INFO - Found 0 images in images directory
+2024-12-15 22:34:17,314 - WARNING - No images found in images directory
+2024-12-15 22:34:17,315 - ERROR - No valid image found
+2024-12-15 22:37:10,830 - INFO - Starting setup process...
+2024-12-15 22:37:10,830 - WARNING - No images found in ./images
+2024-12-15 22:37:10,831 - ERROR - No images found. Please add some images to the images directory
+2024-12-15 22:37:17,996 - INFO - Starting setup process...
+2024-12-15 22:37:17,996 - WARNING - No images found in ./images
+2024-12-15 22:37:17,996 - ERROR - No images found. Please add some images to the images directory
+2024-12-15 23:52:39,951 - INFO - Starting setup process...
+2024-12-15 23:52:39,951 - INFO - Created directory: ./watch
+2024-12-15 23:52:39,954 - INFO - Started watching directory: ./watch
+2024-12-15 23:52:39,954 - WARNING - No images found in ./images
+2024-12-15 23:52:39,954 - INFO - Setup completed successfully
+2024-12-15 23:53:17,953 - INFO - Starting setup process...
+2024-12-15 23:53:17,954 - INFO - Started watching directory: ./watch
+2024-12-15 23:53:17,955 - WARNING - No images found in ./images
+2024-12-15 23:53:17,955 - INFO - Setup completed successfully
+2024-12-15 23:53:18,109 - INFO - 開始執行物體檢測程序
+2024-12-15 23:53:18,110 - WARNING - No images found in ./images
+2024-12-15 23:53:18,110 - WARNING - 未找到有效圖片
+2024-12-15 23:53:19,115 - WARNING - No images found in ./images
+2024-12-15 23:53:19,115 - WARNING - 未找到有效圖片
+2024-12-15 23:53:20,121 - WARNING - No images found in ./images
+2024-12-15 23:53:20,121 - WARNING - 未找到有效圖片
+2024-12-15 23:53:21,127 - WARNING - No images found in ./images
+2024-12-15 23:53:21,127 - WARNING - 未找到有效圖片
+2024-12-15 23:53:22,129 - WARNING - No images found in ./images
+2024-12-15 23:53:22,129 - WARNING - 未找到有效圖片
+2024-12-15 23:53:23,135 - WARNING - No images found in ./images
+2024-12-15 23:53:23,136 - WARNING - 未找到有效圖片
+2024-12-15 23:53:23,394 - INFO - 程式已正常停止
